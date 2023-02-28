@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LaLigaAndrei</title>
+	<link rel="stylesheet" type="text/css" href="inicio.css">
+    <link rel="stylesheet" type="text/css" href="partidos.css">
+    <link rel="stylesheet" type="text/css" href="clasificacion.css">
+    <link rel="stylesheet" type="text/css" href="estadisticas.css">
+    <link rel="stylesheet" type="text/css" href="reglas.css">
+    <link rel="stylesheet" type="text/css" href="inscripcion.css">
+    <link rel="stylesheet" type="text/css" href="dudas.css">
+</head>
+<body>
+	<header>
+		<img id="logo" src="logo mi liga.png" alt="Logo de la Liga">
+		<h1>LaLigaAndrei</h1>
+		<nav>
+			<ul>
+                <li><a href="#inicio">Inicio</a></li>
+				<li><a href="#partidos">Partidos</a></li>
+				<li><a href="#clasificacion">Clasificación</a></li>
+				<li><a href="#estadisticas">Estadísticas</a></li>
+				<li><a href="#reglas">Reglas</a></li>
+                <li><a href="#inscripción">Inscripción</a></li>
+                <li><a href="#dudas">Dudas</a></li>
+			</ul>
+		</nav>
+	</header>
+
+        
+            <h2>Inicio</h2>
+
+            <p>Bienvenidos a la página oficial de <b>LaLigaAndrei.</b> </p>
+			 <p>Una liga de fútbol donde cada equipo tendrá como entrenador a un <b>ex jugador de fútbol</b> y no solo como entrenadores sino que también como futbolistas.</p>
+             <p>Tienes la oportunidad de jugar en el apartado de <b>Inscripción</b> para poder al equipo que quieras, nosotros te pediremos que publiques un video con lo que sabes hacer porque los entrenadores también quieren talento.</p>
+             <p>El objetivo de esta liga es divertirnos con nuestro deporte favorito. Tendrás los resultados de los partidos actualizados, clasificación, estadísticas, reglas, inscripción y si tienes dudas también puedes dejar tu pregunta en el apartado de dudas.</p>
+
+			 <style>
+				ul {
+				  list-style: none;
+				  display: flex;
+				  flex-wrap: wrap;
+				  justify-content: space-around;
+				  padding: 0;
+				}
+				li {
+				  text-align: center;
+				  margin: 10px;
+				}
+				.avatar {
+				  width: 150px;
+				  height: 150px;
+				  border-radius: 50%;
+				  overflow: hidden;
+				}
+				.avatar img {
+				  width: 100%;
+				  height: 100%;
+				  object-fit: cover;
+				  object-position: center;
+				}
+				.name {
+				  margin-top: 10px;
+				  font-weight: bold;
+				}
+			  </style>
+
+			 <h2>Futbolistas</h2>
+			 <ul>
+			   <li>
+				 <div class="avatar">
+				   <img src="torres.jpg" alt="Fernando Torres">
+				 </div>
+				 <p class="name">Fernando Torres</p>
+			   </li>
+			   <li>
+				 <div class="avatar">
+				   <img src="borjaiglesias.jpg" alt="Cristiano Ronaldo">
+				 </div>
+				 <p class="name">Borja Iglesias</p>
+			   </li>
+			   <li>
+				 <div class="avatar">
+				   <img src="villa.avif" alt="Neymar Jr.">
+				 </div>
+				 <p class="name">David Villa</p>
+			   </li>
+			   <li>
+				 <div class="avatar">
+				   <img src="pacoalcacer.jpeg" alt="Kylian Mbappé">
+				 </div>
+				 <p class="name">Paco Alcacer</p>
+			   </li>
+			   <li>
+				 <div class="avatar">
+				   <img src="iniesta.jpeg" alt="Mohamed Salah">
+				 </div>
+				 <p class="name">Andrés Iniesta</p>
+			   </li>
+			   <li>
+				 <div class="avatar">
+				   <img src="suarez.jpg" alt="Sergio Agüero">
+				 </div>
+				 <p class="name">Luis Suárez</p>
+			   </li>
+			 </ul>
+			 <h2>Entrenadores</h2>
+			 <ul>
+				<li>
+				  <div class="avatar">
+					<img src="casillas.jpg" alt="Lionel Messi">
+				  </div>
+				  <p class="name">Iker Casillas</p>
+				</li>
+				<li>
+				  <div class="avatar">
+					<img src="puyol.jpg" alt="Cristiano Ronaldo">
+				  </div>
+				  <p class="name">Puyol</p>
+				</li>
+				<li>
+				  <div class="avatar">
+					<img src="pinto.jpg" alt="Neymar Jr.">
+				  </div>
+				  <p class="name">Pinto</p>
+				</li>
+				<li>
+				  <div class="avatar">
+					<img src="zidane.jpg" alt="Kylian Mbappé">
+				  </div>
+				  <p class="name">Zidane</p>
+				</li>
+				<li>
+				  <div class="avatar">
+					<img src="ronaldo nazario.jpg" alt="Mohamed Salah">
+				  </div>
+				  <p class="name">Ronaldo Nazario</p>
+				</li>
+				<li>
+				  <div class="avatar">
+					<img src="valdes.jpg" alt="Sergio Agüero">
+				  </div>
+				  <p class="name">Victor Valdes</p>
+				</li>
+			  </ul>
+			<style>
+				/* Estilos para la tabla */
+				table {
+				  border-collapse: collapse;
+				  width: 100%;
+				}
+		  
+				th, td {
+				  text-align: center;
+				  padding: 10px;
+				  border: 1px solid black;
+				}
+		  
+				th {
+				  background-color: #f2f2f2;
+				}
+		  
+				/* Estilos para los logos */
+				.logo {
+				  max-width: 50px;
+				  max-height: 50px;
+				}
+			  </style>
+			  <table>
+				<tr>
+				  <th>Equipo</th>
+				  <th>Logo</th>
+				</tr>
+				<tr>
+				  <td>Real Madrid</td>
+				  <td><img class="logo" src="https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg" alt="Real Madrid logo"></td>
+				</tr>
+				<tr>
+				  <td>Barcelona</td>
+				  <td><img class="logo" src="https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg" alt="Barcelona logo"></td>
+				</tr>
+				<tr>
+				  <td>Manchester United</td>
+				  <td><img class="logo" src="https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg" alt="Manchester United logo"></td>
+				</tr>
+				<tr>
+				  <td>Liverpool</td>
+				  <td><img class="logo" src="https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg" alt="Liverpool logo"></td>
+				</tr>
+				<tr>
+				  <td>Juventus</td>
+				  <td><img class="logo" src="https://upload.wikimedia.org/wikipedia/en/1/15/Juventus_FC_2017_logo.svg" alt="Juventus logo"></td>
+				</tr>
+				<tr>
+				  <td>Bayern Munich</td>
+				  <td><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/1/1c/FC_Bayern_München_logo_%282017%29.svg" alt="Bayern Munich logo"></td>
+				</tr>
+			  </table>
+
+	<footer>
+			<div class="container">
+			  <h4>Patrocinadores</h4>
+			  <ul class="sponsor-list">
+				<li><a href="https://www.cocacola.es/"><img src="cocacola.jpg" alt="Ejemplo 1"></a></li>
+				<li><a href="https://www.ejemplo2.com"><img src="ruta-del-logo2.jpg" alt="Ejemplo 2"></a></li>
+				<li><a href="https://www.ejemplo3.com"><img src="ruta-del-logo3.jpg" alt="Ejemplo 3"></a></li>
+			  </ul>
+			</div>
+		<p>LaLigaAndrei &copy; 2023</p>
+	</footer>
+</body>
+</html>

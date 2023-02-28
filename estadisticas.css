@@ -1,0 +1,149 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(28, 52, 105);
+    color:white;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    #logo {
+      border-radius: 50%;
+      overflow: hidden;
+      width: 70px;
+      height: 70px;
+    }
+
+
+    header img {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+
+    header h1 {
+        font-size: 36px;
+        margin: 0;
+      }
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+    
+      nav li {
+        margin: 0 10px;
+      }
+      
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+        padding: 10px;
+        border-radius: 5px;
+      }
+      
+      nav a:hover {
+        background-color: #333;
+      }
+      
+      nav a.active {
+        background-color: #444;
+      }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(28, 52, 105);
+    color: white;
+    margin-top: 15px;
+    padding-left: 20px; 
+    padding-right: 20px; 
+    padding: 50px;
+  }
+  
+  .patrocinadores, .redes-sociales {
+    display: flex;
+    align-items: center;
+  }
+  
+  .patrocinadores img,
+  .redes-sociales img {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+  
+  .patrocinadores img:hover,
+  .redes-sociales img:hover {
+    transform: scale(1.1);
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(https://fondosmil.com/fondo/7517.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+  }
+
+
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    border: 1px solid rgb(28, 52, 105);
+    padding: 0.5rem;
+    text-align: left;
+  }
+  
+  th {
+    background-color: rgb(28, 52, 105);
+    font-weight: bold;
+    box-shadow: 0 0 10px white;
+  }
+  
+  caption {
+    caption-side: top;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  table:nth-child(1) {
+    background-color: #f0ffff;
+  }
+  
+  table:nth-child(2) {
+    background-color: #ffb6c1;
+  }
+  
+  table:nth-child(3) {
+    background-color: #dcdcdc;
+  }
+
+
+  
